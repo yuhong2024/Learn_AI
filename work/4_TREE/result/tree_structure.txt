@@ -1,0 +1,209 @@
+Petal.Length <= -0.7434335440299307?
+├─ 是 →     Sepal.Length <= -1.809440198625194?
+    ├─ 是 →         类别: setosa
+    └─ 否 →         Sepal.Length <= -1.6882723281815426?
+        ├─ 是 →             Sepal.Width <= -0.24707786245094912?
+            ├─ 是 →                 类别: setosa
+            └─ 否 →                 类别: setosa
+        └─ 否 →             Sepal.Length <= -1.5671044577378916?
+            ├─ 是 →                 类别: setosa
+            └─ 否 →                 Sepal.Length <= -1.4459365872942405?
+                ├─ 是 →                     Sepal.Width <= 0.2133156700663442?
+                    ├─ 是 →                         类别: setosa
+                    └─ 否 →                         Sepal.Width <= 0.5586108194543137?
+                        ├─ 是 →                             类别: setosa
+                        └─ 否 →                             类别: setosa
+                └─ 否 →                     Sepal.Length <= -1.3247687168505888?
+                    ├─ 是 →                         类别: setosa
+                    └─ 否 →                         Sepal.Length <= -1.2036008464069377?
+                        ├─ 是 →                             类别: setosa
+                        └─ 否 →                             Sepal.Length <= -1.082432975963286?
+                            ├─ 是 →                                 Sepal.Width <= -0.016881096192302464?
+                                ├─ 是 →                                     类别: setosa
+                                └─ 否 →                                     Sepal.Width <= 0.673709202583637?
+                                    ├─ 是 →                                         类别: setosa
+                                    └─ 否 →                                         类别: setosa
+                            └─ 否 →                                 Sepal.Length <= -0.9612651055196353?
+                                ├─ 是 →                                     Sepal.Width <= 0.09821728693702086?
+                                    ├─ 是 →                                         类别: setosa
+                                    └─ 否 →                                         Sepal.Width <= 0.4435124363249903?
+                                        ├─ 是 →                                             类别: setosa
+                                        └─ 否 →                                             Sepal.Width <= 0.6737092025836364?
+                                            ├─ 是 →                                                 类别: setosa
+                                            └─ 否 →                                                 Sepal.Width <= 0.9039059688422832?
+                                                ├─ 是 →                                                     类别: setosa
+                                                └─ 否 →                                                     Petal.Length <= -1.311807813165962?
+                                                    ├─ 是 →                                                         类别: setosa
+                                                    └─ 否 →                                                         类别: setosa
+                                └─ 否 →                                     Sepal.Length <= -0.8400972350759839?
+                                    ├─ 是 →                                         Sepal.Width <= 0.6737092025836364?
+                                        ├─ 是 →                                             类别: setosa
+                                        └─ 否 →                                             Sepal.Width <= 0.9039059688422832?
+                                            ├─ 是 →                                                 类别: setosa
+                                            └─ 否 →                                                 Sepal.Width <= 1.2492011182302531?
+                                                ├─ 是 →                                                     Petal.Width <= -1.2496282028625902?
+                                                    ├─ 是 →                                                         类别: setosa
+                                                    └─ 否 →                                                         类别: setosa
+                                                └─ 否 →                                                     Sepal.Width <= 1.5944962676182226?
+                                                    ├─ 是 →                                                         类别: setosa
+                                                    └─ 否 →                                                         Petal.Length <= -1.1412955324251526?
+                                                        ├─ 是 →                                                             类别: setosa
+                                                        └─ 否 →                                                             类别: setosa
+                                    └─ 否 →                                         Sepal.Length <= -0.7189293646323325?
+                                        ├─ 是 →                                             类别: setosa
+                                        └─ 否 →                                             Sepal.Length <= -0.5977614941886811?
+                                            ├─ 是 →                                                 类别: setosa
+                                            └─ 否 →                                                 Sepal.Length <= -0.4765936237450297?
+                                                ├─ 是 →                                                     Sepal.Width <= 1.364299501359576?
+                                                    ├─ 是 →                                                         类别: setosa
+                                                    └─ 否 →                                                         类别: setosa
+                                                └─ 否 →                                                     Sepal.Length <= -0.23425788285772747?
+                                                    ├─ 是 →                                                         类别: setosa
+                                                    └─ 否 →                                                         类别: setosa
+└─ 否 →     Petal.Length <= 0.5638272749829416?
+    ├─ 是 →         Petal.Width <= 0.5274062850564711?
+        ├─ 是 →             Sepal.Length <= -1.082432975963286?
+            ├─ 是 →                 类别: versicolor
+            └─ 否 →                 Sepal.Length <= -0.9612651055196353?
+                ├─ 是 →                     Sepal.Width <= -2.088651992520121?
+                    ├─ 是 →                         类别: versicolor
+                    └─ 否 →                         类别: versicolor
+                └─ 否 →                     Sepal.Length <= -0.8400972350759839?
+                    ├─ 是 →                         类别: versicolor
+                    └─ 否 →                         Sepal.Length <= -0.6583454294105066?
+                        ├─ 是 →                             类别: versicolor
+                        └─ 否 →                             Sepal.Length <= -0.4765936237450297?
+                            ├─ 是 →                                 类别: versicolor
+                            └─ 否 →                                 Sepal.Length <= -0.3554257533013789?
+                                ├─ 是 →                                     Sepal.Width <= -1.628258460002828?
+                                    ├─ 是 →                                         类别: versicolor
+                                    └─ 否 →                                         Sepal.Width <= -1.3980616937441814?
+                                        ├─ 是 →                                             Petal.Length <= -0.00454699415308977?
+                                            ├─ 是 →                                                 类别: versicolor
+                                            └─ 否 →                                                 类别: versicolor
+                                        └─ 否 →                                             Sepal.Width <= -1.1678649274855346?
+                                            ├─ 是 →                                                 类别: versicolor
+                                            └─ 否 →                                                 类别: versicolor
+                                └─ 否 →                                     Sepal.Length <= -0.23425788285772747?
+                                    ├─ 是 →                                         Sepal.Width <= -0.47727462870959525?
+                                        ├─ 是 →                                             类别: versicolor
+                                        └─ 否 →                                             Petal.Length <= 0.3080588538717274?
+                                            ├─ 是 →                                                 类别: versicolor
+                                            └─ 否 →                                                 类别: versicolor
+                                    └─ 否 →                                         Sepal.Length <= -0.11309001241407607?
+                                        ├─ 是 →                                             Sepal.Width <= -0.8225697780975652?
+                                            ├─ 是 →                                                 类别: versicolor
+                                            └─ 否 →                                                 Sepal.Width <= -0.4772746287095958?
+                                                ├─ 是 →                                                     类别: versicolor
+                                                └─ 否 →                                                     Sepal.Width <= -0.24707786245094912?
+                                                    ├─ 是 →                                                         类别: versicolor
+                                                    └─ 否 →                                                         类别: versicolor
+                                        └─ 否 →                                             Sepal.Length <= 0.008077858029575322?
+                                            ├─ 是 →                                                 Sepal.Width <= -0.937668161226888?
+                                                ├─ 是 →                                                     类别: versicolor
+                                                └─ 否 →                                                     类别: versicolor
+                                            └─ 否 →                                                 Sepal.Length <= 0.1292457284732267?
+                                                ├─ 是 →                                                     类别: versicolor
+                                                └─ 否 →                                                     Sepal.Length <= 0.2504135989168776?
+                                                    ├─ 是 →                                                         类别: versicolor
+                                                    └─ 否 →                                                         Sepal.Length <= 0.37158146936052894?
+                                                        ├─ 是 →                                                             Sepal.Width <= -0.4772746287095958?
+                                                            ├─ 是 →                                                                 类别: versicolor
+                                                            └─ 否 →                                                                 Sepal.Width <= -0.24707786245094912?
+                                                                ├─ 是 →                                                                     类别: versicolor
+                                                                └─ 否 →                                                                     类别: versicolor
+                                                        └─ 否 →                                                             Sepal.Length <= 0.49274933980418034?
+                                                            ├─ 是 →                                                                 类别: versicolor
+                                                            └─ 否 →                                                                 Sepal.Length <= 0.6139172102478319?
+                                                                ├─ 是 →                                                                     类别: versicolor
+                                                                └─ 否 →                                                                     Sepal.Length <= 0.7350850806914833?
+                                                                    ├─ 是 →                                                                         类别: versicolor
+                                                                    └─ 否 →                                                                         Sepal.Length <= 0.856252951135134?
+                                                                        ├─ 是 →                                                                             类别: versicolor
+                                                                        └─ 否 →                                                                             Sepal.Length <= 1.1591726272442622?
+                                                                            ├─ 是 →                                                                                 Sepal.Width <= -0.24707786245094912?
+                                                                                ├─ 是 →                                                                                     类别: versicolor
+                                                                                └─ 否 →                                                                                     类别: versicolor
+                                                                            └─ 否 →                                                                                 类别: versicolor
+        └─ 否 →             类别: virginica
+    └─ 否 →         Petal.Width <= 0.7248545614919224?
+        ├─ 是 →             Petal.Length <= 0.6775021288101479?
+            ├─ 是 →                 Sepal.Length <= 0.91683688635696?
+                ├─ 是 →                     类别: versicolor
+                └─ 否 →                     类别: versicolor
+            └─ 否 →                 Petal.Width <= 0.46159019291132075?
+                ├─ 是 →                     Sepal.Length <= 0.2504135989168776?
+                    ├─ 是 →                         类别: virginica
+                    └─ 否 →                         Sepal.Length <= 0.4321654045823544?
+                        ├─ 是 →                             类别: virginica
+                        └─ 否 →                             类别: virginica
+                └─ 否 →                     Sepal.Length <= 1.3409244329097396?
+                    ├─ 是 →                         Sepal.Length <= 0.6139172102478317?
+                        ├─ 是 →                             类别: versicolor
+                        └─ 否 →                             类别: versicolor
+                    └─ 否 →                         类别: virginica
+        └─ 否 →             Petal.Length <= 0.6206647018965448?
+            ├─ 是 →                 Sepal.Length <= 0.1292457284732267?
+                ├─ 是 →                     类别: versicolor
+                └─ 否 →                     Sepal.Length <= 0.3109975341387035?
+                    ├─ 是 →                         类别: virginica
+                    └─ 否 →                         类别: virginica
+            └─ 否 →                 Sepal.Length <= -0.23425788285772747?
+                ├─ 是 →                     类别: virginica
+                └─ 否 →                     Sepal.Length <= -0.11309001241407607?
+                    ├─ 是 →                         类别: virginica
+                    └─ 否 →                         Sepal.Length <= 0.008077858029575322?
+                        ├─ 是 →                             Sepal.Width <= -0.7074713949682419?
+                            ├─ 是 →                                 类别: virginica
+                            └─ 否 →                                 类别: virginica
+                        └─ 否 →                             Sepal.Length <= 0.2504135989168781?
+                            ├─ 是 →                                 类别: virginica
+                            └─ 否 →                                 Sepal.Length <= 0.49274933980418034?
+                                ├─ 是 →                                     类别: virginica
+                                └─ 否 →                                     Sepal.Length <= 0.6139172102478319?
+                                    ├─ 是 →                                         Sepal.Width <= -0.5923730118389186?
+                                        ├─ 是 →                                             类别: virginica
+                                        └─ 否 →                                             Sepal.Width <= 0.09821728693702034?
+                                            ├─ 是 →                                                 类别: virginica
+                                            └─ 否 →                                                 Sepal.Width <= 0.6737092025836364?
+                                                ├─ 是 →                                                     类别: virginica
+                                                └─ 否 →                                                     类别: virginica
+                                    └─ 否 →                                         Sepal.Length <= 0.7350850806914833?
+                                        ├─ 是 →                                             Sepal.Width <= -0.36217624558027195?
+                                            ├─ 是 →                                                 类别: virginica
+                                            └─ 否 →                                                 Sepal.Width <= 0.2133156700663442?
+                                                ├─ 是 →                                                     类别: virginica
+                                                └─ 否 →                                                     类别: virginica
+                                        └─ 否 →                                             Sepal.Length <= 0.91683688635696?
+                                            ├─ 是 →                                                 Petal.Length <= 0.9048518364645605?
+                                                ├─ 是 →                                                     类别: virginica
+                                                └─ 否 →                                                     类别: virginica
+                                            └─ 否 →                                                 Sepal.Length <= 1.0985886920224368?
+                                                ├─ 是 →                                                     Sepal.Width <= 0.32841405319566697?
+                                                    ├─ 是 →                                                         类别: virginica
+                                                    └─ 否 →                                                         Petal.Width <= 1.4488315750885774?
+                                                        ├─ 是 →                                                             类别: virginica
+                                                        └─ 否 →                                                             类别: virginica
+                                                └─ 否 →                                                     Sepal.Length <= 1.2197565624660882?
+                                                    ├─ 是 →                                                         类别: virginica
+                                                    └─ 否 →                                                         Sepal.Length <= 1.401508368131565?
+                                                        ├─ 是 →                                                             Sepal.Width <= 0.2133156700663442?
+                                                            ├─ 是 →                                                                 类别: virginica
+                                                            └─ 否 →                                                                 类别: virginica
+                                                        └─ 否 →                                                             Sepal.Length <= 1.5832601737970418?
+                                                            ├─ 是 →                                                                 类别: virginica
+                                                            └─ 否 →                                                                 Sepal.Length <= 1.7044280442406934?
+                                                                ├─ 是 →                                                                     Sepal.Width <= 0.7888075857129604?
+                                                                    ├─ 是 →                                                                         类别: virginica
+                                                                    └─ 否 →                                                                         类别: virginica
+                                                                └─ 否 →                                                                     Sepal.Length <= 1.8255959146843446?
+                                                                    ├─ 是 →                                                                         类别: virginica
+                                                                    └─ 否 →                                                                         Sepal.Length <= 2.007347720349822?
+                                                                        ├─ 是 →                                                                             类别: virginica
+                                                                        └─ 否 →                                                                             Sepal.Length <= 2.1890995260152986?
+                                                                            ├─ 是 →                                                                                 类别: virginica
+                                                                            └─ 否 →                                                                                 Sepal.Width <= -0.36217624558027245?
+                                                                                ├─ 是 →                                                                                     类别: virginica
+                                                                                └─ 否 →                                                                                     Sepal.Width <= 0.7888075857129598?
+                                                                                    ├─ 是 →                                                                                         类别: virginica
+                                                                                    └─ 否 →                                                                                         类别: virginica

@@ -1,0 +1,3 @@
+Model,Macro Precision,Macro Recall,Macro Specificity
+KNN,1.0,1.0,1.0
+Decision Tree,0.98,0.97,0.99
